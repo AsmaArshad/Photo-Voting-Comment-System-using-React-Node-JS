@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row-reverse;
+}
+header button{
+    background-color: #00ddff!important;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px !important;
+    margin: 10px 10px;
+
+}
+
+.main-container{
+width: 40%;
+margin: auto;
+margin-bottom: 50px;
+/* border:solid 1px red */
+
+}
+
+.btn-container{
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+}
+.btn-container button{
+background-color: #00ddff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
